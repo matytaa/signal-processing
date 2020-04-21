@@ -2,14 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8415fd53-c3ce-4d79-bd92-0816ad913a7d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/functions/actions/EnergyCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/functions/domain/Ecuation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/functions/domain/Variable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/functions/domain/functions/Cosine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/functions/domain/functions/Function.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/functions/domain/functions/IntegralCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/core/functions/EnergyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/functions/actions/EnergyCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/actions/EnergyCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/functions/domain/IntegralCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/domain/IntegralCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/functions/domain/functions/Cosine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/domain/functions/Cosine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/functions/domain/functions/Function.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/domain/functions/Function.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/core/functions/EnergyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/core/EnergyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/functions/domain/Ecuation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/functions/domain/Variable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/functions/domain/functions/Cosine.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/functions/domain/functions/Cosine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/functions/domain/functions/IntegralCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/core/functions/EnergyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/core/functions/EnergyTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,38 +29,30 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/core/functions/EnergyTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/core/EnergyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="26" column="62" selection-start-line="26" selection-start-column="62" selection-end-line="26" selection-end-column="62" />
+            <state relative-caret-position="360">
+              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#776#777#0" expanded="true" />
                 <element signature="e#827#828#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/core/functions/domain/Ecuation.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+            <state relative-caret-position="480">
+              <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/core/functions/domain/Variable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="21" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/core/functions/actions/EnergyCalculator.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/core/actions/EnergyCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
               <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
@@ -71,19 +67,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/core/functions/domain/functions/IntegralCalculator.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/core/domain/IntegralCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+            <state relative-caret-position="180">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/core/functions/domain/functions/Cosine.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/core/domain/functions/Cosine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="62" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding>
                 <element signature="e#126#127#0" expanded="true" />
                 <element signature="e#190#191#0" expanded="true" />
@@ -93,28 +92,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/core/functions/domain/functions/Function.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/core/domain/functions/Function.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
               <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/tp2/src/main/java/tp2/Function.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/maths/flanagan/1.0.0/flanagan-1.0.0.jar!/flanagan/integration/IntegralFunction.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="7" column="33" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -146,6 +127,8 @@
         <option value="$PROJECT_DIR$/src/main/java/core/functions/domain/functions/IntegralCalculator.java" />
         <option value="$PROJECT_DIR$/src/test/java/core/functions/EnergyTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/core/functions/domain/functions/Cosine.java" />
+        <option value="$PROJECT_DIR$/src/test/java/core/EnergyTest.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -169,14 +152,6 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
-        <option value="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1680" />
@@ -194,72 +169,6 @@
               <item name="signalprocessing" type="b2602c69:ProjectViewProjectNode" />
               <item name="signal-processing" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="signalprocessing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="signal-processing" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="signalprocessing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="signal-processing" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="signalprocessing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="signal-processing" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="signalprocessing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="signal-processing" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="functions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="signalprocessing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="signal-processing" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="functions" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="signalprocessing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="signal-processing" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="functions" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-              <item name="functions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="signalprocessing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="signal-processing" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="signalprocessing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="signal-processing" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="signalprocessing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="signal-processing" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="functions" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -269,6 +178,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RunDashboard">
@@ -336,12 +246,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EnergyTest_CalculateEnergy - 2020.04.19 at 22h 24m 44s.xml">
-      <configuration name="EnergyTest.CalculateEnergy" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EnergyTest - 2020.04.19 at 22h 24m 58s.xml">
-      <configuration name="EnergyTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="EnergyTest - 2020.04.19 at 22h 48m 23s.xml">
       <configuration name="EnergyTest" configurationId="JUnit" />
     </history-entry>
@@ -366,13 +270,19 @@
     <history-entry file="EnergyTest - 2020.04.20 at 21h 08m 53s.xml">
       <configuration name="EnergyTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="EnergyTest - 2020.04.20 at 21h 32m 16s.xml">
+      <configuration name="EnergyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EnergyTest - 2020.04.20 at 21h 32m 38s.xml">
+      <configuration name="EnergyTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="958" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49913943" visible="true" weight="0.25274727" />
+      <window_info id="Structure" order="1" sideWeight="0.5008606" side_tool="true" weight="0.25274727" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -380,14 +290,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3290993" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3290993" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3290993" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3290993" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3290993" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3290993" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -398,6 +308,32 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/maths/flanagan/1.0.0/flanagan-1.0.0.jar!/flanagan/integration/Integration.class">
@@ -414,13 +350,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/core/functions/domain/Variable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/functions/domain/Variable.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/Math.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6975">
@@ -442,7 +372,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/core/functions/actions/EnergyCalculator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/functions/domain/Ecuation.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/functions/domain/functions/IntegralCalculator.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/domain/IntegralCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/actions/EnergyCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
@@ -455,46 +397,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/core/functions/domain/Ecuation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/core/functions/domain/functions/Function.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/domain/functions/Function.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/core/functions/domain/functions/IntegralCalculator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/domain/functions/Cosine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#126#127#0" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/core/functions/EnergyTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/core/EnergyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="26" column="62" selection-start-line="26" selection-start-column="62" selection-end-line="26" selection-end-column="62" />
+        <state relative-caret-position="360">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#776#777#0" expanded="true" />
             <element signature="e#827#828#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/core/functions/domain/functions/Cosine.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="62" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
-          <folding>
-            <element signature="e#126#127#0" expanded="true" />
-            <element signature="e#190#191#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="480">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
         </state>
       </provider>
     </entry>

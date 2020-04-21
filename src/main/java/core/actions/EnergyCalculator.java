@@ -1,4 +1,4 @@
-package core.functions.actions;
+package core.actions;
 
 import flanagan.integration.Integration;
 

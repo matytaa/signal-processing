@@ -1,5 +1,5 @@
-package core.functions.domain;
-import core.functions.domain.functions.Function;
+package core.domain;
+import core.domain.functions.Function;
 import flanagan.integration.IntegralFunction;
 
 public class IntegralCalculator implements IntegralFunction {

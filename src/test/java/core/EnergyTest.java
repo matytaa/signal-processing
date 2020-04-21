@@ -1,9 +1,9 @@
-package core.functions;
+package core;
 
-import core.functions.actions.EnergyCalculator;
-import core.functions.domain.functions.Cosine;
-import core.functions.domain.functions.Function;
-import core.functions.domain.IntegralCalculator;
+import core.actions.EnergyCalculator;
+import core.domain.functions.Cosine;
+import core.domain.functions.Function;
+import core.domain.IntegralCalculator;
 import flanagan.integration.Integration;
 import org.junit.Assert;
 import org.junit.Test;

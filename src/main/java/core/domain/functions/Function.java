@@ -1,4 +1,4 @@
-package core.functions.domain.functions;
+package core.domain.functions;
 
 public interface Function {
     double execute(double variable);

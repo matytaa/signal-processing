@@ -1,4 +1,4 @@
-package core.functions.domain.functions;
+package core.domain.functions;
 
 public class Cosine implements Function{
     public double execute(double variable){
